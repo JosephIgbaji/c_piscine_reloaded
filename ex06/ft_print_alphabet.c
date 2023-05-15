@@ -1,4 +1,4 @@
-#include "unistd.h"
+#include <unistd.h>
 
 void	ft_print_alphabet(void)
 {
@@ -11,9 +11,9 @@ void	ft_print_alphabet(void)
 		c++;
 	}
 }
-
+/*
 int	main(void)
 {
 	ft_print_alphabet();
 	return (0);
-}
+}*/
